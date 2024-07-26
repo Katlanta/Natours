@@ -36,6 +36,16 @@
         }
     }
 
+    &--green {
+        background-color: $colour-primary;
+        color: $colour-white;
+
+        &::after{
+            background-color: $colour-primary;
+        }
+    }
+
+
     &::after {
         content: "";
         display: inline-block;
